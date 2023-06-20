@@ -3,6 +3,8 @@ font-family: 'Noto Serif', "Times New Roman serif; */
 .page {
   min-width: 1100px;
   max-width: 1600px;
+  margin-left: 0;
+  margin-right: 0;
   font-family: Inter, Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;

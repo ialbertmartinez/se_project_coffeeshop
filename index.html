@@ -15,14 +15,14 @@
     />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
-    <link rel="stylesheet" href="vendor/normalize.css" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital@0;1&display=swap"
       rel="stylesheet"
     />
+
+    <link rel="stylesheet" href="vendor/normalize.css" />
     <link rel="stylesheet" href="pages/index.css" />
   </head>
 
@@ -37,16 +37,16 @@
           />
           <ul class="nav__links">
             <li class="nav__item">
-              <a href="#" class="nav__link">Recipes</a>
+              <a href="#recipes" class="nav__link">Recipes</a>
             </li>
             <li class="nav__item">
-              <a href="#" class="nav__link">Menu</a>
+              <a href="#menu" class="nav__link">Menu</a>
             </li>
             <li class="nav__item">
-              <a href="#" class="nav__link">Book a table</a>
+              <a href="#booking" class="nav__link">Book a table</a>
             </li>
             <li class="nav__item">
-              <a href="#" class="nav__link">Contacts</a>
+              <a href="#contacts" class="nav__link">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -64,25 +64,60 @@
           class="header__image"
         />
         <div class="header__footer">
-          <p class="header__paragraph header__paragraph_content_hours-title">
-            Hours:
-          </p>
-          <p class="header__paragraph header__paragraph_content_hours-item">
-            Monday &#x2013; Friday (10:00 &#x2013; 19:00)
-          </p>
-          <p class="header__paragraph header__paragraph_content_hours-item">
-            Saturday &#x2013; Sunday (11:00 &#x2013; 18:00)
-          </p>
-          <p class="header__address">
+          <div class="header__paragraph header__paragraph_content_hours">
+            <p class="header__paragraph">Hours:</p>
+            <p class="header__paragraph">
+              Monday &#x2013; Friday (10:00 &#x2013; 19:00)
+            </p>
+            <p class="header__paragraph">
+              Saturday &#x2013; Sunday (11:00 &#x2013; 18:00)
+            </p>
+          </div>
+          <p class="header__paragraph">
             200 Success Avenue, The Town of Triple Peaks
           </p>
         </div>
       </header>
       <main class="content">
-        <section class="recipes"></section>
-        <section class="reservation"></section>
-        <section class="menu"></section>
-        <section class="about"></section>
+        <section id="recipes" class="recipes">
+          <h2 class="recipes__title">Recipes</h2>
+          <p class="recipes__subtitle">
+            Check out some recipes we've collected for your home-brewing
+            convenience:
+          </p>
+          <div class="recipes__videos">
+            <div class="recipes__video">
+              <iframe
+                class="recipes__iframe"
+                width="480"
+                height="273"
+                src=" https://www.youtube.com/embed/j6VlT_jUVPc?loop=1&color=white"
+                allowfullscreen
+              ></iframe>
+
+              <div class="recipes__video-captions">
+                <p class="recipes__video-caption">AeroPress recipe</p>
+                <p class="recipes__video-caption">~5 min</p>
+              </div>
+            </div>
+            <div class="recipes__video">
+              <iframe
+                class="recipes__iframe"
+                width="480"
+                height="273"
+                src="https://www.youtube.com/embed/st571DYYTR8?loop=1&color=white"
+                allowfullscreen
+              ></iframe>
+              <div class="recipes__video-captions">
+                <p class="recipes__video-caption">French press recipe</p>
+                <p class="recipes__video-caption">~15 min</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="reservation" class="reservation"></section>
+        <section id="menu" class="menu"></section>
+        <section id="about" class="about"></section>
       </main>
       <footer class="footer"></footer>
     </div>

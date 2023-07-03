@@ -1,0 +1,46 @@
+.card {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  width: 540px;
+}
+
+.card__title,
+.card__list {
+  margin: 0;
+  padding: 0;
+}
+
+.card__title {
+  margin-bottom: 32px;
+  font-family: "Inter";
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.card__list {
+  width: 540px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card__list-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  font-family: "Noto Serif";
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.card__list-divider {
+  border-bottom: 1px solid #000000;
+  display: inline-block;
+  flex-grow: 1;
+  height: 16px;
+}

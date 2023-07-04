@@ -14,10 +14,6 @@
   box-sizing: border-box;
 }
 
-.header__image {
-  position: absolute;
-}
-
 .header__title {
   font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
@@ -58,7 +54,8 @@
 }
 
 .header__footer {
-  margin-top: auto;
+  /* padding: 40px 0; */
+  margin: auto 0 40px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -67,7 +64,7 @@
 }
 
 .header__paragraph {
-  font-family: "Inter", Arial, sans-serif;
+  font-family: Inter, Arial, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;

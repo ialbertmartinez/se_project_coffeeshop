@@ -3,6 +3,7 @@
   flex-flow: column nowrap;
   align-items: flex-start;
   width: 540px;
+  font-family: "Noto Serif", "Times New Roman", serif;
 }
 
 .card__title,
@@ -13,7 +14,7 @@
 
 .card__title {
   margin-bottom: 32px;
-  font-family: "Inter";
+  font-family: Inter, Arial, sans-serif;
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
@@ -32,7 +33,6 @@
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  font-family: "Noto Serif";
   font-size: 16px;
   line-height: 20px;
   color: #000000;

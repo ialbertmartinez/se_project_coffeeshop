@@ -39,10 +39,10 @@
               <a href="#recipes" class="nav__link">Recipes</a>
             </li>
             <li class="nav__item">
-              <a href="#menu" class="nav__link">Menu</a>
+              <a href="#booking" class="nav__link">Book a table</a>
             </li>
             <li class="nav__item">
-              <a href="#booking" class="nav__link">Book a table</a>
+              <a href="#menu" class="nav__link">Menu</a>
             </li>
             <li class="nav__item">
               <a href="#contacts" class="nav__link">Contacts</a>
@@ -63,7 +63,7 @@
           class="header__image"
         />
         <div class="header__footer">
-          <div class="header__paragraph header__paragraph_content_hours">
+          <div class="header__paragraphs">
             <p class="header__paragraph">Hours:</p>
             <p class="header__paragraph">
               Monday &#x2013; Friday (10:00 &#x2013; 19:00)
@@ -84,12 +84,10 @@
             Check out some recipes we've collected for your home-brewing
             convenience:
           </p>
-          <div class="recipes__videos">
-            <div class="recipes__video">
+          <ul class="recipes__videos">
+            <li class="recipes__video">
               <iframe
                 class="recipes__iframe"
-                width="480"
-                height="273"
                 src=" https://www.youtube.com/embed/j6VlT_jUVPc?loop=1&color=white"
                 allowfullscreen
               ></iframe>
@@ -98,12 +96,10 @@
                 <p class="recipes__video-caption">AeroPress recipe</p>
                 <p class="recipes__video-caption">~5 min</p>
               </div>
-            </div>
-            <div class="recipes__video">
+            </li>
+            <li class="recipes__video">
               <iframe
                 class="recipes__iframe"
-                width="480"
-                height="273"
                 src="https://www.youtube.com/embed/st571DYYTR8?loop=1&color=white"
                 allowfullscreen
               ></iframe>
@@ -111,8 +107,8 @@
                 <p class="recipes__video-caption">French press recipe</p>
                 <p class="recipes__video-caption">~15 min</p>
               </div>
-            </div>
-          </div>
+            </li>
+          </ul>
         </section>
         <section id="booking" class="reservation">
           <h2 class="reservation__title">Book a table</h2>
@@ -286,7 +282,42 @@
           <div class="about__circle about__circle_animation_blurred"></div>
         </section>
       </main>
-      <footer class="footer"></footer>
+
+      <footer class="footer">
+        <div class="footer__content">
+          <img
+            src="./images/logo_coffeeshop_light.svg"
+            alt="Triple espresso coffee shop logo"
+            class="footer__logo"
+          />
+          <div class="footer__social">
+            <h3 class="footer__social-heading">Social media</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link"
+                  ><img
+                    src="images/facebook_white.svg"
+                    alt="a lowercase letter f as Facebook's iconic logo"
+                    class="footer__social-icon"
+                  />
+                  Facebook</a
+                >
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link">
+                  <img
+                    src="images/instagram_white.svg"
+                    alt="Instagram's camera logo symbol"
+                    class="footer__social-icon"
+                  />
+                  Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">&#169; 2023 Albert Martinez</p>
+      </footer>
     </div>
   </body>
 </html>

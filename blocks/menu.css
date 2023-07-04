@@ -14,9 +14,11 @@
 }
 .menu__title,
 .menu__subtitle {
+  width: 100%;
   max-width: 780px;
   box-sizing: border-box;
   padding: 0;
+  text-align: center;
 }
 
 .menu__title {
@@ -32,7 +34,6 @@
   font-family: "Noto Serif";
   font-size: 20px;
   line-height: 30px;
-  text-align: center;
 }
 
 .menu__cards {
